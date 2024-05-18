@@ -1,0 +1,10 @@
+{
+    "name": "hctilg/finglish",
+    "description": "This library provides a Finglish-to-Persian convertor.",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0"
+    }
+}
