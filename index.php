@@ -64,7 +64,7 @@ final class Finglish {
     $output = [];
     $results = $this->f2p_list($phrase, $max_word_size, $cutoff);
     foreach ($results as $result) $output[] = $result[0][0];
-    return implode(' ', $output);
+    return is_array($output[0]) ? $phrase : implode(' ', $output);
   }
 
   private function get_portable_filename(string $filename) {
